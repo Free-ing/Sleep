@@ -1,0 +1,117 @@
+HELP.md
+
+### Gradle 관련 ###
+.gradle
+.gradle-cache/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Spring Boot 설정 파일 ###
+/src/main/resources/application.yml
+/src/main/resources/application-*.yml
+!/src/main/resources/application.yml.example
+
+### 로그 파일 ###
+*.log
+logs/
+
+### 운영 체제 관련 파일 ###
+Thumbs.db
+desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+*~
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### 테스트 보고서 ###
+/test-output/
+/surefire-reports/
+/target/surefire-reports/
+/target/test-classes/
+/.jacoco/
+*.exec
+coverage/
+
+### Docker 관련 ###
+*.env
+.env.*
+docker-compose.override.yml
+
+### JAR/WAR 파일 ###
+*.jar
+*.war
+
+### SSL/TLS 관련 ###
+*.crt
+*.key
+*.pem
+*.pfx
+
+### 클라우드 서비스 관련 ###
+.aws/
+*.tfstate
+*.tfstate.backup
+*.json
+*.azure/
+
+### 데이터베이스 파일 ###
+*.db
+*.sqlite
+
+### 임시 파일 ###
+*.tmp
+*.swp
+*.bak
+*.backup
+
+### 사용자 정의 ###
+secret/
+keys/
+
+### Frontend 관련 파일 ###
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+dist/
+build/
+
+### 환경별 설정 ###
+application-dev.yml
+application-test.yml
+application-prod.yml
